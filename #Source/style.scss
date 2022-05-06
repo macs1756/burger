@@ -1,8 +1,17 @@
 @import "_nullstyle";
 
-.wrapper {
+
+
+
+
+
+
+body{
+	background: red;
+}
+part{
 	position: relative;
-	max-width: 600px;
+	width: 100px;
 	margin: 0 auto;
 	background: red;
 
@@ -12,6 +21,7 @@
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
+	background: #7b6969;
 	top: 0px;
 	left: 0;
 	height: 80px;

@@ -70,9 +70,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.wrapper {
+body {
+  background: red;
+}
+
+part {
   position: relative;
-  max-width: 600px;
+  width: 100px;
   margin: 0 auto;
   background: red;
 }
@@ -85,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
+  background: #7b6969;
   top: 0px;
   left: 0;
   height: 80px;
