@@ -256,4 +256,29 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
   display: none;
 }
+
+.meeting {
+  margin: 150px 0 0 20px;
+  border: 1px solid #000;
+  max-width: 500px;
+}
+
+.meeting div {
+  border-bottom: 1px solid #000;
+}
+
+.meeting__title {
+  font-weight: 900;
+  padding: 3px 0;
+}
+
+.meeting__title:active {
+  background-color: #827373;
+}
+
+.meeting__content {
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #194536;
+}
 /*# sourceMappingURL=style.css.map */
