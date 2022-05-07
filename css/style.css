@@ -272,6 +272,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3px 0;
 }
 
+@media (max-width: 600px) {
+  .meeting__title {
+    padding: 15px 0 15px 5px;
+  }
+}
+
 .meeting__title:active {
   background-color: #827373;
 }
