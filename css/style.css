@@ -159,8 +159,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .burger_active {
   background-color: aquamarine;
-  height: 300px;
-  overflow: scroll;
+  height: 100%;
+  overflow-y: scroll;
   -webkit-transition: all 2s linear;
   transition: all 2s linear;
   position: fixed;
