@@ -42,11 +42,21 @@ tabs.forEach(function(item){
 	
 			})
 });
+//////////////////////////////////
+
+const model = document.querySelector('#model_btn');
+const model_content = document.querySelector("#model_content");
+const model_disable = document.querySelector("#model_disable");
+console.log(model_content);
 
 
+model.addEventListener("click", function(){
+			model_content.classList.remove("no_model");
+});
 
-
-
+model_disable.addEventListener("click", function(){
+	model_content.classList.add("no_model");
+});
 
 
 
