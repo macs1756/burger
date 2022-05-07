@@ -128,7 +128,7 @@
 
 .arrow{
 		position: relative;
-		z-index: 4;
+		z-index: -1;
 				&::after{
 		content: "";
 		width: 13px;
