@@ -27,3 +27,26 @@ meeting.forEach(function(item) {
 				  this.nextElementSibling.classList.toggle('hidden');
 			});
 });
+////////////////////////////////////////
+
+
+const tabs = document.querySelectorAll("[data-btn]");
+const tabContainer = document.querySelectorAll(".tabs_content");
+tabs.forEach(function(item){
+			item.addEventListener("click", function(){
+				tabContainer.forEach(function(item){
+						item.classList.add("hidden");
+				});
+				const contentBox = document.querySelector("#" + this.dataset.btn);
+				contentBox.classList.toggle("hidden");
+	
+			})
+});
+
+
+
+
+
+
+
+
