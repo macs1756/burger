@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   position: relative;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-right: 15px;
 }
 
 body {
