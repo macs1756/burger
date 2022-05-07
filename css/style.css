@@ -293,5 +293,23 @@ body {
   line-height: 130%;
   letter-spacing: 1px;
   color: #194536;
+  background-color: #baf5fa;
+  font-weight: 500;
+}
+
+.tabs {
+  margin: 100px 0 0 15px;
+}
+
+.tabs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs li {
+  border: 1px solid #000;
+  margin-right: 5px;
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */
