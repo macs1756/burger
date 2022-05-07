@@ -83,7 +83,8 @@
 
 .burger_active {
 	background-color: aquamarine;
-	height: 80vh;
+	height: 300px;
+	overflow: scroll;
 	transition: all 2s linear;
 	position: fixed;
 	top: 0;
