@@ -75,6 +75,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .con {
   font-size: 40px;
   padding-left: 20px;

@@ -4,6 +4,9 @@
 	position: relative;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+body{
+	user-select: none;
+}
 
 .con{
 	font-size: 40px;
