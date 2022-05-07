@@ -277,7 +277,7 @@ body {
 
 .meeting__title {
   font-weight: 900;
-  padding: 3px 0;
+  padding: 3px 10px;
 }
 
 @media (max-width: 600px) {
@@ -403,7 +403,7 @@ body {
 }
 
 .modal__btn_more:active {
-  background-color: blue;
+  background-color: #368585;
 }
 
 .modal__less {

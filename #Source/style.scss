@@ -187,7 +187,7 @@ body{
 
 .meeting__title {
 	font-weight: 900;
-	padding: 3px 0;
+	padding: 3px 10px;
 	@media (max-width: 600px){
 		padding: 15px 0 15px 5px;
 	}
@@ -301,7 +301,7 @@ body{
 	max-width: 100px;
 	margin-top: 25px;
 	&:active{
-		background-color: blue;
+		background-color: rgb(54, 133, 133);
 	}
 }
 
