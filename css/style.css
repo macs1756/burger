@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
   position: relative;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .con {
@@ -183,5 +184,74 @@ h1, h2, h3, h4, h5, h6 {
           transform: translateY(-100%);
   -webkit-transition: all 2s linear;
   transition: all 2s linear;
+}
+
+.click {
+  margin: 150px 0 0 50px;
+}
+
+.click__btn {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px  40px 10px 20px;
+  color: #4b3e3e;
+  font-weight: 700;
+}
+
+.click__btn:active {
+  background-color: #c2bcbc;
+}
+
+.arrow {
+  position: relative;
+}
+
+.arrow::after {
+  content: "";
+  width: 13px;
+  height: 2px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background: #000;
+  position: absolute;
+  top: 18px;
+  right: 10px;
+}
+
+.arrow::before {
+  content: "";
+  width: 13px;
+  height: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background: #000;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.click__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  width: 120px;
+  margin: 23px 0 0 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.click__active a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #825656;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
