@@ -58,5 +58,13 @@ model_disable.addEventListener("click", function(){
 	model_content.classList.add("no_model");
 });
 
+///////////////////
 
+
+const menuA = document.querySelector("#menuArrow");
+const menuL = document.querySelector("#menuList")
+
+menuA.addEventListener("click", function(){
+				menuL.classList.toggle("menuActive");
+});
 
