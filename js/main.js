@@ -62,9 +62,16 @@ model_disable.addEventListener("click", function(){
 
 
 const menuA = document.querySelector("#menuArrow");
-const menuL = document.querySelector("#menuList")
+const menuL = document.querySelector("#menuList");
 
 menuA.addEventListener("click", function(){
 				menuL.classList.toggle("menuActive");
 });
 
+////////////////////////
+
+
+let num56 = 5.467;
+
+console.log(num56.toFixed(0));
+console.log(isFinite(num56));
