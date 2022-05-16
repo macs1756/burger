@@ -455,7 +455,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 140px;
 }
 
 .menu a {
@@ -520,5 +519,9 @@ body {
 
 .menuActive {
   display: block;
+}
+
+.wr {
+  margin-bottom: 140px;
 }
 /*# sourceMappingURL=style.css.map */
