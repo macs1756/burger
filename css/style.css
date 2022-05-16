@@ -606,4 +606,11 @@ body {
             transform: rotate(-20deg);
   }
 }
+
+.helo {
+  font-size: 77px;
+  color: #2e214f;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
 /*# sourceMappingURL=style.css.map */

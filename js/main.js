@@ -85,4 +85,4 @@ xbet.addEventListener("click", function(){
 	confirm("1XBET Поставив і про#бав");
 });
 
-
+document.write("<div class='helo'>HEllo</div>");
