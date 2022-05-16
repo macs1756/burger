@@ -75,3 +75,7 @@ let num56 = 5.467;
 
 console.log(num56.toFixed(0));
 console.log(isFinite(num56));
+
+alert("heLLo JS");
+
+alert("heLLo JS");
