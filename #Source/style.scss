@@ -430,3 +430,42 @@ body{
 .wr{
 	margin-bottom: 100px;
 }
+
+.btn_js{
+	
+	width: 60px;
+	height: 60px;
+	background-color: rgba(54, 133, 133, 1);
+	border-radius: 50%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: more 2s linear infinite alternate 0s forwards;
+	animation: more2 1s linear infinite alternate 0s forwards;
+	a{
+		color: #fff;
+	}
+}
+@keyframes more{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@keyframes more2 {
+		33%{
+				transform: rotate(20deg);
+		}
+		66%{
+			transform: rotate(-20deg);
+	}
+}
