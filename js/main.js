@@ -82,7 +82,7 @@ console.log(isFinite(num56));
 
 const xbet = document.querySelector("#xbet");
 xbet.addEventListener("click", function(){
-	confirm("1XBEX Поставив і про#бав");
+	confirm("1XBET Поставив і про#бав");
 });
 
 
