@@ -526,6 +526,7 @@ body {
 }
 
 .btn_js {
+  margin: 0 auto;
   width: 60px;
   height: 60px;
   background-color: #368585;
@@ -546,6 +547,7 @@ body {
           animation: more 2s linear infinite alternate 0s forwards;
   -webkit-animation: more2 1s linear infinite alternate 0s forwards;
           animation: more2 1s linear infinite alternate 0s forwards;
+  margin-bottom: 100px;
 }
 
 .btn_js a {
