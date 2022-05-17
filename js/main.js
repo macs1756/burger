@@ -47,7 +47,7 @@ tabs.forEach(function(item){
 const model = document.querySelector('#model_btn');
 const model_content = document.querySelector("#model_content");
 const model_disable = document.querySelector("#model_disable");
-console.log(model_content);
+//console.log(model_content);
 
 
 model.addEventListener("click", function(){
@@ -73,8 +73,8 @@ menuA.addEventListener("click", function(){
 
 let num56 = 5.467;
 
-console.log(num56.toFixed(0));
-console.log(isFinite(num56));
+//console.log(num56.toFixed(0));
+//console.log(isFinite(num56));
 
 
 
@@ -86,3 +86,25 @@ xbet.addEventListener("click", function(){
 });
 
 document.write("<div class='helo'>HEllo</div>");
+
+
+
+
+/////////////////////
+////price/////////
+const pricePen = 5.25;
+const pricePencil = 3.50;
+
+//////number price pen//////////////
+let xP = 4;
+//////number price pencil//////////////
+let xPl = 6;
+
+
+let summPrice = (xP * pricePen)+(xPl * pricePencil);
+//document.write(summPrice);
+
+///////////////////////
+
+let name22 = prompt("Введіть ваше Імя!!");
+alert(`Доброго дня ${name22}, вас вітає JS бот!!!`);
