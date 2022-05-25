@@ -618,35 +618,7 @@ body {
   margin-bottom: 100px;
 }
 
-.num54 {
-  font-weight: 900;
-  margin-left: 50px;
-  font-size: 40px;
-  text-align: center;
-  overflow: hidden;
-  -webkit-animation: second 60s steps(60) infinite alternate 0s forwards;
-          animation: second 60s steps(60) infinite alternate 0s forwards;
-}
-
-@-webkit-keyframes second {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  100% {
-    -webkit-transform: translateX(-1200px);
-            transform: translateX(-1200px);
-  }
-}
-
-@keyframes second {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  100% {
-    -webkit-transform: translateX(-1200px);
-            transform: translateX(-1200px);
-  }
+.right {
+  margin-right: 15px;
 }
 /*# sourceMappingURL=style.css.map */

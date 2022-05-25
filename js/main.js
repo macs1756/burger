@@ -102,49 +102,50 @@ let xPl = 6;
 
 
 let summPrice = (xP * pricePen)+(xPl * pricePencil);
-//document.write(summPrice);
-
-///////////////////////
-
-//let name22 = prompt("Введіть ваше Імя!!");
-//alert(`Доброго дня ${name22}, вас вітає JS бот!!!`);
-
-//////////////////////
 
 
 
-//let lifeAge = prompt("You age");
+const calcXY = document.querySelector("#calcXY");
 
-//if(1 < lifeAge && lifeAge <= 7){
-//	console.log("дитина")
-//}else if(7 < lifeAge && lifeAge <= 14){
-//	console.log("майже підліток")
-//}else if(14 < lifeAge && lifeAge <= 18){
-//	console.log("підліток")
-//}else if(18 < lifeAge && lifeAge <= 30){
-/////	console.log("чоловік")
-//}else if(30 < lifeAge && lifeAge <= 60){
-///	console.log("старший дядько")
-//}else if(60 < lifeAge && lifeAge <= 120){
-//	console.log("пенсія")
-//}else if(lifeAge>120){
-//	console.log("привид")
-//}else if(typeof String){
-//	console.log("error")
-//};
+calcXY.addEventListener("click", function(){
+		func34();
+});
+
+ function func34(){
+	let x =	+prompt("Введіть перше число");
+	let y =	+prompt("Введіть друге число");
+	let sum = x + y;
+if(!isNaN(sum)){
+	confirm(`Ваша сума ${sum}`);
+}else{
+	confirm("Ви ввели не число");
+};
+};
+
+///////////////////////////////
 
 
-//let zero = prompt("number");
-//if(zero > 0 || zero === "+"){
-//	console.log("Ви ввели додатнє число");
-//}else if(zero < 0 || zero === "-"){
-//	console.log("Ви ввели відємне число");
-//}else if(zero == 0 || zero === "zero"){
-//	console.log("Ви ввели число 0");
-//}
-//let str = "";
-//for( let i = 0; i<=60; i=i+1){
-//	str = str + i
-//};
-//document.write(`<h2 class="num54">${str}</h2>`);
 
+const bot = document.querySelector("#bot");
+
+bot.addEventListener("click", function(){
+	func35();
+});
+
+
+function func35(){
+
+	let bot = +prompt("введіть Антибот 8+5");
+	let count = 4;
+	while(bot!= 13 && count>0){
+		bot = +prompt(`Неправильний антибот, Введіть антибот **(8+5)**, залишилося спроб ${count} `);
+		count--
+
+};
+if(bot == 13){
+	confirm("Вітаємо, ви не бот");
+}else{
+	confirm("Ви бот((");
+};
+
+}
