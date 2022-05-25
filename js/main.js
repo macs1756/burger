@@ -148,8 +148,75 @@ if(bot == 13){
 	alert("Ви бот((");
 };
 };
+//////////////////////////////////////
+
+
+
+const minusNum = document.querySelector("#minusNum");
+
+minusNum.addEventListener("click", function(){
+	func36();
+});
+
+function func36(){
+
+let counter45 = 0;
+let counter46 = 0;
+let i = 1;
+while(i<=5){
+			let obj45 =	+prompt("Введіть числo:");
+			i++;
+			if(obj45 < 0){
+				counter45++;
+			}else if(obj45>0){
+				counter46++
+			};
+};
+alert(`Додатніх чисел було ${counter46}, відємних чисел було: ${counter45}.`);
+};
+
+
+
+//let click67 = +prompt("Введіть число");
+//let click68 = 0;
+//while(click67 >= 0){
+//	click67 = +prompt("Введіть число");
+	
+//	click68++;
+////}
+//alert(`додатніх чисел введено = ${click68}`);
 
 
 
 
+const coumpleNum = document.querySelector("#coupleNum");
 
+coumpleNum.addEventListener("click", function(){
+	func37();
+});
+
+
+
+function func37(){
+
+
+
+let num55 = prompt("Введіть число");
+let num0 = num55 / 2;
+
+
+
+ if(Number.isInteger(num0) && num0 !== 0){
+
+	 alert("ви ввели парне число");
+
+ }else if(isNaN(num0) || num0 == 0){
+
+	alert("Ви ввели буквений вираз або нуль");
+
+ }else if(!Number.isInteger(num0)){
+
+	alert("Число не парне");
+	
+ };
+};
