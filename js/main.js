@@ -135,10 +135,10 @@ bot.addEventListener("click", function(){
 
 function func35(){
 
-	let bot = +prompt("введіть Антибот 8+5");
+	let bot = +prompt("введіть Антибот 8+5=");
 	let count = 4;
 	while(bot!= 13 && count>0){
-		bot = +prompt(`Неправильний антибот, Введіть антибот **(8+5)**, залишилося спроб ${count} `);
+		bot = +prompt(`Неправильний антибот, Введіть антибот 8+5=, залишилося спроб ${count} `);
 		count--
 
 };
@@ -148,6 +148,8 @@ if(bot == 13){
 	alert("Ви бот((");
 };
 };
+
+
 
 
 
