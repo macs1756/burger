@@ -613,4 +613,40 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 5px;
 }
+
+.wrapper {
+  margin-bottom: 100px;
+}
+
+.num54 {
+  font-weight: 900;
+  margin-left: 50px;
+  font-size: 40px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-animation: second 60s steps(60) infinite alternate 0s forwards;
+          animation: second 60s steps(60) infinite alternate 0s forwards;
+}
+
+@-webkit-keyframes second {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px);
+  }
+}
+
+@keyframes second {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px);
+  }
+}
 /*# sourceMappingURL=style.css.map */
