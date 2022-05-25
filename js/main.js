@@ -145,7 +145,9 @@ function func35(){
 if(bot == 13){
 	confirm("Вітаємо, ви не бот");
 }else{
-	confirm("Ви бот((");
+	alert("Ви бот((");
+};
 };
 
-}
+
+
