@@ -217,6 +217,152 @@ let num0 = num55 / 2;
  }else if(!Number.isInteger(num0)){
 
 	alert("Число не парне");
-	
+
  };
+};
+
+
+
+
+
+
+
+//вивід чисел кратних 3
+//let n1 = +prompt("num1");
+//let n2 = +prompt("num2");
+//for( i = n1; i<= n2; i++){
+ //  if(i%3 ==0){
+//		 console.log(i);
+//	 }
+//}
+
+
+
+ //let pass = +prompt("Введіть  будьласка пароль для входу на сайт");
+ //let passCount = 5;
+//while(pass != 1234 && passCount>0){
+//	pass = +prompt(`пароль непрвильний спробуйте ще, залишилося спроб ${passCount}`);
+///	passCount--
+//}
+//if(pass == 1234){
+//	alert("Ласкаво просимо");
+//}else{
+//	alert("спроби вичерпані спробуйте пізніше");
+//};
+
+
+
+///let h1 = prompt("num");
+//let h2 = 0;
+///let sum = 0;
+//while(h2<h1){
+//	h2++;
+//	sum = sum + h2;
+//}
+//console.log(sum);
+
+
+//let x5 = 1000;
+//while(x5<9999){
+//	x5+=3;
+//	console.log(x5);
+//};
+
+
+const func1 = document.querySelector("#func1");
+
+func1.addEventListener("click", function(){
+	fun1();
+});
+
+
+function fun1(){
+	alert("Hello World!!");
+};
+
+
+
+//let a1 = +prompt("one");
+//let b2 = +prompt("two");
+//let num89;
+//let num88 = 0;
+//function func2(){
+//for(i = 0; i<arguments.length; i++){
+///	num88 +=arguments[i];
+//};
+
+const num68 = document.querySelector("#func78");
+
+num68.addEventListener("click", function(){
+		func78();
+});
+
+
+function func78(){
+
+let num68 = +prompt("Введіть номер місяця(числом!! - Для пса майнеза!!)");
+
+switch (num68) {
+	case 1:
+		alert("зима");
+		break;
+
+
+		case 2:
+			alert("зима");
+			break;
+
+
+			case 3:
+				alert("весна");
+				break;
+
+
+				case 4:
+					alert("весна");
+					break;
+
+
+					case 5:
+						alert("весна");
+						break;
+
+
+		case 6:
+		alert("літо");
+		break;
+
+
+			case 7:
+			alert("літо");
+			break;
+
+
+			case 8:
+				alert("літо");
+				break;
+
+
+				case 9:
+					alert("осінь");
+					break;
+
+
+					case 10:
+						alert("осінь");
+						break;
+
+
+						case 11:
+							alert("осінь");
+							break;
+
+
+								case 12: 
+								alert("зима");
+								break
+	default:
+		alert("error");
+		break;
+};
 };
