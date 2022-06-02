@@ -624,6 +624,7 @@ body {
 
 .newSection {
   margin-top: 50px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .left {
@@ -632,5 +633,30 @@ body {
 
 .top {
   margin-top: 10px;
+}
+
+.akar02_title {
+  font-weight: 900;
+  font-size: calc(18px + 7 * ((100vw - 320px) / 1080));
+  padding-bottom: 0.45em;
+}
+
+.akar02_p {
+  font-size: 16px;
+  line-height: 130%;
+  max-width: 600px;
+  padding-right: 10px;
+  height: 90px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.none {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 /*# sourceMappingURL=style.css.map */

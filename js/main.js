@@ -366,3 +366,84 @@ switch (num68) {
 		break;
 };
 };
+
+let sum77 = 0;
+const num55 = (...arg) => {
+
+		for(i=0; arg.length>i; i++){
+		sum77=  sum77 + +arg[i];
+		}
+};
+
+num55(5,8,9,7);
+//console.log(sum77);
+
+
+
+
+
+
+function fun77(n,m){
+
+let firstNum = 1;
+let count = 0;
+
+for(i=0; i<n; n--){
+	count= count + firstNum;
+	firstNum*=m;
+	
+}
+//console.log(count);
+}
+
+fun77(3,3);
+
+
+
+
+////let p1 = +prompt();
+//let p2 = +prompt();
+
+//function pub(p1,p2){
+//	for(i=p1; p2>=i; i++){
+		
+//	console.log(i);
+
+//}
+	
+//}
+
+
+//pub(p1,p2);
+
+let myMath = {
+	a : 5,
+ 	b: 2,
+	 fu(){
+		 console.log(`a + b = ${this.a + this.b}`);
+		 console.log(`a - b = ${this.a - this.b}`);
+		 console.log(`a * b = ${this.a * this.b}`);
+		 console.log(`a / b = ${this.a / this.b}`);
+		
+	 }
+
+};
+
+myMath.fu();
+
+
+
+//let sum = myMath.a + myMath.b;
+
+//console.log(sum);
+
+
+
+const akar02 = document.querySelectorAll("#akar02");
+
+
+akar02.forEach(function(item){
+		item.addEventListener("click", function(){
+			item.nextElementSibling.classList.toggle("none");
+		});
+});
