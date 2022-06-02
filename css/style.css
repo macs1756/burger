@@ -168,8 +168,8 @@ body {
 .burger_active {
   background-color: aquamarine;
   height: 100%;
-  -webkit-transition: all 2s linear;
-  transition: all 2s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   position: fixed;
   top: 0;
   left: 0;
@@ -191,8 +191,8 @@ body {
 .trans {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: all 2s linear;
-  transition: all 2s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .click {
@@ -521,6 +521,10 @@ body {
   display: block;
 }
 
+a {
+  color: inherit;
+}
+
 .wr {
   margin-bottom: 100px;
 }
@@ -639,6 +643,7 @@ body {
   font-weight: 900;
   font-size: calc(18px + 7 * ((100vw - 320px) / 1080));
   padding-bottom: 0.45em;
+  display: inline-block;
 }
 
 .akar02_p {
@@ -646,7 +651,8 @@ body {
   line-height: 130%;
   max-width: 600px;
   padding-right: 10px;
-  height: 90px;
+  margin-bottom: 0.7em;
+  height: 80px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }

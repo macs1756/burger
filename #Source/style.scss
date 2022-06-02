@@ -100,7 +100,7 @@ body{
 .burger_active {
 	background-color: aquamarine;
 	height: 100%;
-	transition: all 2s linear;
+	transition: all 0.3s linear;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -120,7 +120,7 @@ body{
 
 .trans{
 	transform: translateY(-100%);
-	transition: all 2s linear;
+	transition: all 0.3s linear;
 
 }
 
@@ -426,7 +426,9 @@ body{
 		display: block;
 }
 
-	
+	a{
+		color: inherit;
+	}
 
 .wr{
 	margin-bottom: 100px;
@@ -505,23 +507,22 @@ margin-bottom: 100px;
 
 .akar02_title {
 	font-weight: 900;
-	@include adaptiv-font(25, 18);
+	@include adaptiv-font(25,18);
 	padding-bottom: 0.45em;
+	display: inline-block;
 }
 .akar02_p {
 	font-size: 16px;
 	line-height: 130%;
 	max-width: 600px;
 	padding-right: 10px;
-//	margin-bottom: 0.7em;
-	height: 90px;
+	margin-bottom: 0.7em;
+	height: 80px;
 	transition:all 0.3s linear;
 }
 
 
 .none{
- // padding:0;
- // margin:auto;
   visibility: hidden;
   height:0;
   overflow:hidden;

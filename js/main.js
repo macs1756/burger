@@ -429,7 +429,7 @@ let myMath = {
 
 };
 
-myMath.fu();
+//myMath.fu();
 
 
 
@@ -445,5 +445,87 @@ const akar02 = document.querySelectorAll("#akar02");
 akar02.forEach(function(item){
 		item.addEventListener("click", function(){
 			item.nextElementSibling.classList.toggle("none");
+		});
+});
+
+
+
+let string = "Hello World";
+//console.log(string.toUpperCase());
+//console.log(string.toLowerCase());
+//console.log(string.toLocaleUpperCase());
+
+
+//let myName = prompt("MyName");
+//let name67 = myName.charAt(0).toUpperCase();
+
+//for(i=1; i<myName.length; i++){
+//	name67+= myName.charAt(i);
+///}
+
+//alert(name67);
+
+
+////let str55 = string.indexOf("W");
+//console.log(str55);
+
+
+
+
+
+//let nn = prompt("name");
+//let n1 = nn.charAt(0).toUpperCase();
+//let n2 = nn.substring(1).toLowerCase();
+//let n3 = n1 + n2;
+//alert(`Превет, ${n3} як справи!`);
+
+
+//let sumStr = " ";
+//function f55(str78, num77){
+
+//for(i=0; i<num77; i++){
+///	sumStr+=str78;
+//}
+
+
+
+
+//}
+
+//f55("Превет", 5);
+//console.log(sumStr);
+
+
+
+//let count = 0;
+//let num88 = prompt("str");
+
+//for(i=0; i<num88.length; i++){
+//	if(num88.charAt(i) == " "){
+//		count++;
+///	};
+//};
+//console.log(count);
+
+function fX(){
+let num88 = prompt("enter gmail");
+if(num88.includes("@") && num88.charAt(0) != "@" && num88.charAt(num88.length - 1) != "@"){
+	alert("Успіх!");
+}else{
+//	fX();
+};
+};
+
+
+//fX();
+
+
+
+
+let listLink = document.querySelectorAll("#listLink");
+
+listLink.forEach(function(item){
+		item.addEventListener("click", function(){
+			burger.classList.add("trans");
 		});
 });
