@@ -529,3 +529,78 @@ listLink.forEach(function(item){
 			burger.classList.add("trans");
 		});
 });
+
+
+
+
+
+function numM(){	
+let numN = Math.random()*10;
+let resN = numN.toFixed(0);
+let numM = Math.random()*10;
+let resM = numM.toFixed(0);
+
+if(resN != 10 && resM != 10){
+console.log(`${resN}${resM}%`);
+		return;
+}
+}
+
+//numM();
+
+
+function randomaizer(min,max){
+	console.log(min + Math.round(Math.random() * (max - min)));
+};
+
+
+//randomaizer(0,50);
+
+
+function colorRGB(){
+		let R =	0 + Math.round(Math.random() * (256 - 0));
+		let G =	0 + Math.round(Math.random() * (256 - 0));
+		let B =	0 + Math.round(Math.random() * (256 - 0));
+		console.log(`rgb(${R}, ${G}, ${B});`);
+		document.write(`<h2 style="color: rgb(${R}, ${G}, ${B})" class="col">color</h2>`);
+};
+
+
+//colorRGB();
+
+
+
+
+
+function s(numS){
+	let sString = numS.toString();
+	let point = sString.indexOf(".");
+	let copy = sString.substring(point);
+	if(point != -1){
+		let num = `0${copy}`;
+		console.log(`${+num} дробова частка від числа ${numS}`);
+	}else{
+		console.log(`0.0 дробова частка від числа ${numS}`);
+	}
+
+	
+};
+
+
+//s(6.287878);
+function pr2(){
+		let r = +prompt("enter NUM");
+		let sRound = Math.PI * (r*r);
+		if(!isNaN(sRound) && sRound != 0){
+			alert(`площа круга: ${+sRound.toFixed(3)}`);
+		}else{
+			alert("Введене некоректне значення");
+		}
+}
+
+
+//pr2();
+
+
+
+
