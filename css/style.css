@@ -774,4 +774,29 @@ a {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.black {
+  -webkit-animation: cl 0.6s linear 1 alternate 0s forwards;
+          animation: cl 0.6s linear 1 alternate 0s forwards;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+@-webkit-keyframes cl {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+
+@keyframes cl {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #000;
+  }
+}
 /*# sourceMappingURL=style.css.map */

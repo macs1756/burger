@@ -670,8 +670,10 @@ s33.forEach(function(item){
 
 
 const bgColor = document.querySelector("#bgColor");
-
+const body = document.querySelector("body");
 
 bgColor.addEventListener("click", function(item){
-			bgColor.classList.toggle("btnActive")
-})
+			bgColor.classList.toggle("btnActive");
+			body.classList.toggle("black");
+
+});
