@@ -520,7 +520,16 @@ margin-bottom: 100px;
 	height: 80px;
 	transition:all 0.3s linear;
 	@media (max-width: 600px){
-		height: 150px;
+		height: 80px;
+	}
+	@media (max-width: 450px){
+		height: 100px;
+	}
+	@media (max-width: 365px){
+		height: 120px;
+	}
+	@media (max-width: 330px){
+		height: 140px;
 	}
 	
 }
@@ -548,3 +557,42 @@ margin-bottom: 100px;
 .modal__btn:hover{
 	background-color: rgb(3, 172, 172);
 }
+
+.bgColor{
+	display: block;
+	border: 2.5px solid #c5c5c5;
+	background-color: #e1dede;
+	width: 90px;
+	height: 42px;
+	border-radius: 50px;
+	position: relative;
+	transition: all 0.3s linear;
+	&:after{
+		content: "";
+		display: block;
+		width: 37px;
+		height: 37px;
+		background-color: #fff;
+		box-shadow: 3px 3px 6px  #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: 0px;
+		transition: all 0.3s linear;
+	}
+}
+
+
+.btnActive{
+background-color: green;
+border: 2.5px solid green;
+transition: background 0.9s linear;
+&:after{
+	content: "";
+	display: block;
+	transform: translate(48px);
+	transition: transform 0.3s linear;
+	box-shadow: none;
+}
+}
+

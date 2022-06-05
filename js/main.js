@@ -608,19 +608,70 @@ funcSQET.addEventListener("click", function(){
 })
 
 
+let ar = [5,77,13,357];
+
+for(i=0;i<ar.length; i++){
+	ar[i]+=5
+}
+
+//console.log(ar.sort((a,b) => a-b));
 
 
-function num95(){
-	let xs = +prompt("num");
-	if(xs == 0){
-		alert("Введіть додатнє число");
-	}else if(isFinite(xs)){
-		let res = Math.sqrt(xs);
-		res = res.toFixed(2);
-		alert(res);
-	}
-else{
-	alert("Некоректно введені дані");
-};
-};
 
+
+let name33 = ["ivan", "petro", "pavlo"];
+let nameNull = [];
+name33.forEach(function(item){
+let nameUper = item.toUpperCase();
+	nameNull.push(nameUper);
+});
+
+//console.log(nameNull);
+
+
+
+let numA = [1, 5, 7];
+let numC = [3,33,333]
+let numB = [];
+let numBB = [];
+numA.forEach(function(item){
+		numB=`${numB} "${item}"`;
+});
+numC.forEach(function(item){
+	numBB=`${numBB} "${item}"`;
+});
+
+
+//console.log(numBB);
+//console.log(numB);
+
+
+
+let s33 = ["ivan", "pavlo", "ira", "varfolomii"];
+let n33 = [];
+
+s33.forEach(function(item){
+		let sStr = item.toString().length;
+		n33.push(sStr);
+});
+
+//console.log(s33);
+//console.log(n33);
+
+
+
+
+
+
+//console.log(yy);
+
+
+
+
+
+const bgColor = document.querySelector("#bgColor");
+
+
+bgColor.addEventListener("click", function(item){
+			bgColor.classList.toggle("btnActive")
+})
