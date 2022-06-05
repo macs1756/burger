@@ -519,6 +519,10 @@ margin-bottom: 100px;
 	margin-bottom: 0.7em;
 	height: 80px;
 	transition:all 0.3s linear;
+	@media (max-width: 600px){
+		height: 150px;
+	}
+	
 }
 
 
@@ -535,4 +539,12 @@ margin-bottom: 100px;
 	font-size: 50px;
 	margin: 2em;
 	font-weight: 900;
+}
+
+.new__row{
+	padding: 15px 0;
+}
+
+.modal__btn:hover{
+	background-color: rgb(3, 172, 172);
 }

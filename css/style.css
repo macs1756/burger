@@ -657,6 +657,12 @@ a {
   transition: all 0.3s linear;
 }
 
+@media (max-width: 600px) {
+  .akar02_p {
+    height: 150px;
+  }
+}
+
 .none {
   visibility: hidden;
   height: 0;
@@ -670,5 +676,13 @@ a {
   font-size: 50px;
   margin: 2em;
   font-weight: 900;
+}
+
+.new__row {
+  padding: 15px 0;
+}
+
+.modal__btn:hover {
+  background-color: #03acac;
 }
 /*# sourceMappingURL=style.css.map */

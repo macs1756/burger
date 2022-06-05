@@ -601,6 +601,26 @@ function pr2(){
 
 //pr2();
 
+const funcSQET = document.querySelector("#num95");
+
+funcSQET.addEventListener("click", function(){
+	num95();
+})
 
 
+
+
+function num95(){
+	let xs = +prompt("num");
+	if(xs == 0){
+		alert("Введіть додатнє число");
+	}else if(isFinite(xs)){
+		let res = Math.sqrt(xs);
+		res = res.toFixed(2);
+		alert(res);
+	}
+else{
+	alert("Некоректно введені дані");
+};
+};
 
