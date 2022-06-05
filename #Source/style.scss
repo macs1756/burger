@@ -559,6 +559,7 @@ margin-bottom: 100px;
 }
 
 .bgColor{
+	user-select: none;
 	display: block;
 	border: 2.5px solid #c5c5c5;
 	background-color: #e1dede;
@@ -584,6 +585,7 @@ margin-bottom: 100px;
 
 
 .btnActive{
+	user-select: none;
 background-color: green;
 border: 2.5px solid green;
 transition: background 0.9s linear;

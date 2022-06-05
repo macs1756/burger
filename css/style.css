@@ -705,6 +705,10 @@ a {
 }
 
 .bgColor {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   display: block;
   border: 2.5px solid #c5c5c5;
   background-color: #e1dede;
@@ -733,6 +737,10 @@ a {
 }
 
 .btnActive {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: green;
   border: 2.5px solid green;
   -webkit-transition: background 0.9s linear;
