@@ -704,6 +704,13 @@ a {
   background-color: #03acac;
 }
 
+.newSection {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .bgColor {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -721,6 +728,10 @@ a {
 }
 
 .bgColor:after {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   content: "";
   display: block;
   width: 37px;
@@ -748,6 +759,10 @@ a {
 }
 
 .btnActive:after {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   content: "";
   display: block;
   -webkit-transform: translate(48px);
