@@ -835,3 +835,9 @@ new Swiper(".swiper", {
 		slideShadow: true,
 	},
 });
+
+
+new Swiper(".swiper-button",{
+	spaceBetween: 30,
+	freeMode: true,
+});
