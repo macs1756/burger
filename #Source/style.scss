@@ -625,7 +625,12 @@ transition: background 0.9s linear;
 		background-color: #000;
 	}
 }
-
+.swiper{
+	max-width: 600px;
+	img{
+		border-radius: 18px 18px 0 0;
+	}
+}
 img{
 	max-width: 100%;
 
@@ -635,9 +640,6 @@ img{
 }
 
 .arrow__slider{
-	display: flex;
 	padding-top: 30px;
-	justify-content: center;
 }
-
 

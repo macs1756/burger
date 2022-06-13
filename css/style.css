@@ -805,6 +805,14 @@ body {
   }
 }
 
+.swiper {
+  max-width: 600px;
+}
+
+.swiper img {
+  border-radius: 18px 18px 0 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -814,12 +822,6 @@ img {
 }
 
 .arrow__slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

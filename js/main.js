@@ -824,5 +824,14 @@ new Swiper(".swiper", {
 		clickable: true,
 		dynamicBullets: true,
 	},
-
+	touchRatio: 1.7,
+	mousewheel: {
+		sensitivity: 0.2,
+		eventsTarget: ".swiper-slide",
+	},
+	loop: true,
+	effect: "flip",
+	flipEffect: {
+		slideShadow: true,
+	},
 });
