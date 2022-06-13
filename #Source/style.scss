@@ -591,6 +591,10 @@ margin-bottom: 100px;
 	}
 }
 
+body{
+	transition: background 0.9s linear;
+
+}
 
 .btnActive{
 	user-select: none;
@@ -621,3 +625,19 @@ transition: background 0.9s linear;
 		background-color: #000;
 	}
 }
+
+img{
+	max-width: 100%;
+
+}
+.swiper-container{
+	text-align: center;
+}
+
+.arrow__slider{
+	display: flex;
+	padding-top: 30px;
+	justify-content: center;
+}
+
+

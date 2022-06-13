@@ -677,3 +677,152 @@ bgColor.addEventListener("click", function(item){
 			body.classList.toggle("black");
 
 });
+
+
+
+let cb = [5,8,78,0,34,-44,8,-33];
+
+
+let newCb = cb.filter(item => item >= 0);
+
+//console.log(newCb);
+
+
+let applePrice = [999,1299,1599,2099];
+
+let modApplePrice = applePrice.map(item => "$"+item);
+
+//console.log(modApplePrice);
+
+
+
+let num3 = [1,2,3,4,5,6,7,8,9,10];
+
+
+let newNum3 = num3.map(
+	item => item>5 ? item*2 : item
+	);
+
+//console.log(newNum3);
+
+
+let phone = [
+	{
+		name: "Nokia",
+		model: "Lumia",
+		price: "50$",
+	},
+	{
+		name: "Iphone",
+		model: "X",
+		price: "950$",
+	},
+	{
+		name: "Realme",
+		model: "H20",
+		price: "650$",
+	}
+];
+
+
+
+//console.table(phone);
+
+
+let NewPrice = phone.map(item => {
+	item.price = parseFloat(item.price)*28 + " грн";
+	return item;
+});
+
+//console.table(NewPrice);
+
+
+
+let sumNum3  = num3.reduce((first, item)=> first + item, 0);
+
+
+//console.log(sumNum3);
+
+
+let n89  = [ 3, 5 ,7 ,9 ,88];
+
+
+let n90 = n89.some(item => item  == 3);
+//console.log(n90);
+
+
+
+
+let person5 = {
+	id: 69,
+	name: "ivan",
+	tel: "iphone",
+}
+
+let {id} = person5;
+
+
+//console.log(id);
+
+
+
+
+let arg3 = [7, 8 , 9, 11];
+//console.log(arg3);
+let start = 0;
+
+arg3.forEach(item =>{
+		start+=item;
+});
+//console.log(start);
+
+
+let arg4 = arg3.map(item => item*item);
+
+//console.log(arg4);
+
+
+
+
+let arr = [{name: 'Ivan', country: 'Ukraine'},
+           {name: 'Petro', country: 'Ukaine'},
+           {name: 'Miguel', country: 'Cuba'}
+          ];
+
+
+let qq = arr.some(item=> item.country == "Ukraine");
+
+
+
+//console.log(qq);
+
+
+	
+
+
+
+
+		
+let arrg = [1, -2, 3, 0, 4, -5, 6, -11];
+
+
+let aa =arrg.filter(item => {return item>0});
+
+let ab = Array.from(aa, item=> Math.sqrt(item).toFixed(3));
+//console.log(ab);
+
+
+
+
+new Swiper(".swiper", {
+	navigation: {
+		nextEl: ".next",
+		prevEl: ".prev",
+	},
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+		dynamicBullets: true,
+	},
+
+});
