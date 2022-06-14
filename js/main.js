@@ -837,14 +837,4 @@ new Swiper(".swiper", {
 });
 
 
-new Swiper(".swiper-btn",{
-//	spaceBetween: 30,
-	freeMode: true,
-	mousewheel:{
-		sensitivity: 1,
-		eventsTarget: ".swiper-button",
-	},
-	loop: false,
-	spaceBetween: 30,
-});
 
