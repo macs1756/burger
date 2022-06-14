@@ -1,6 +1,5 @@
 
 @import "_nullstyle";
-
 $maxWidth: 1400;
 @mixin adaptiv-font($pcSize, $mobSize) {
  $addSize: $pcSize - $mobSize;
@@ -641,32 +640,34 @@ img{
 
 .arrow__slider{
 	padding-top: 30px;
+
 }
 
 
 
-.slider__button{
-		margin: 30px 0;
-		padding: 30px 0;
+.swiper-btn{
 max-width: 600px;
 overflow: hidden;
-
-		border: 1px solid #000;
-}
-
-
-
-
-.swiper-slide__item{
-		padding: 10px 15px;
-		border-radius: 10px;
-		border: 1px solid #c5c5c5;
-}
-
-
-.s2{
+border: 1px solid #000;
+margin: auto;
+height: 50px;
+.swiper-slide{
+	flex-shrink: 1;
 	max-width: 90px;
+	min-width: 90px;
+	border: 1px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+
 .swiper-wrapper{
-	max-width: 500px;
+	perspective: 200px;
 }
+
+
+
+
+}
+
