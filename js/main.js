@@ -838,3 +838,26 @@ new Swiper(".swiper", {
 
 
 
+
+const modal2 = document.querySelector(".modal2__active");
+const btnModal2 = document.querySelector(".modal2");
+const modalItem = document.querySelector(".modal2__active-item");
+const closeModal2 = document.querySelector(".modal2__close");
+
+btnModal2.addEventListener("click", openPopap=>{
+	modal2.classList.toggle("modal2__active-open");
+	modalItem.classList.add("modal2__active-item-open");
+});
+
+
+modal2.addEventListener("click", closeWr=>{
+	modal2.classList.remove("modal2__active-open");
+	modalItem.classList.remove("modal2__active-item-open");
+});
+
+closeModal2.addEventListener("click", closeWr=>{
+	modal2.classList.remove("modal2__active-open");
+	modalItem.classList.remove("modal2__active-item-open");
+});
+
+
