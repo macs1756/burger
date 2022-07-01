@@ -870,6 +870,7 @@ img {
 }
 
 .modal2__active-item {
+  pointer-events: none;
   position: relative;
   width: 300px;
   overflow: auto;
